@@ -23,7 +23,10 @@ def perfom_install():
                 "sudo ldconfig"]
     
     for cmd in cmd_list:
-        commands.getstatusoutput(cmd)
+        (status , output) = commands.getstatusoutput(cmd)
+        print status
+        print output
+        
     
 
     pass
