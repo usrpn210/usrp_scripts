@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import commands
 
 def perfom_install():
@@ -28,6 +29,7 @@ def perfom_install():
     pass
 
 def main():
+    perfom_install()
     pass
 
 if __name__ == "__main__" :
